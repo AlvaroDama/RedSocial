@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RedSocial.View.Registro">
+  <StackLayout>
+    <Label Text="{Binding LoginLabel}"></Label>
+    <Entry Text="{Binding User.Login}"></Entry>
+    <Label Text="{Binding PassLabel}"></Label>
+    <Entry Text="{Binding User.Password}"></Entry>
+    <Label Text="{Binding NameLabel}"></Label>
+    <Entry Text="{Binding User.Nombre}"></Entry>
+    <Label Text="{Binding LastNameLabel}"></Label>
+    <Entry Text="{Binding User.Apellidos}"></Entry>
+    <Button Text="{Binding NewUserLabel}" Command="{Binding CmdAlta}"></Button>
+  </StackLayout>
+</ContentPage>
